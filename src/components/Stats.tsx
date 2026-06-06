@@ -10,9 +10,12 @@ export function Stats() {
   ];
 
   return (
-    <section className="border-y border-card-border bg-card/50 py-16 md:py-20">
+    <section
+      aria-labelledby="stats-heading"
+      className="border-y border-card-border bg-card/50 py-16 md:py-20"
+    >
       <div className="mx-auto max-w-6xl px-6">
-        <p className="mb-12 max-w-2xl text-lg leading-relaxed text-muted md:text-xl">
+        <p id="stats-heading" className="mb-12 max-w-2xl text-lg leading-relaxed text-muted md:text-xl">
           {t("title")}
         </p>
         <div className="grid gap-10 md:grid-cols-3">

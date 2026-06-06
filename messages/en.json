@@ -1,15 +1,19 @@
 {
   "metadata": {
-    "title": "Rivora — Full-Stack Development & VPS Deployment",
-    "description": "Rivora builds custom web applications, deploys them to production VPS, and delivers ready-to-use digital products. Full-stack development for businesses worldwide.",
-    "keywords": "full stack development, web development, VPS deployment, custom software, SaaS, Rivora"
+    "title": "Rivora | Full-Stack Developer — Custom Web Apps & VPS Deployment",
+    "description": "Hire Rivora for custom full-stack web development, API integrations, and production VPS deployment. SaaS products available for purchase or monthly subscription. Remote developer serving clients worldwide.",
+    "keywords": "full stack developer, custom web development, VPS deployment, Next.js developer, freelance developer, SaaS development, web application development, DevOps, API integration, remote developer, software development services, Rivora",
+    "ogTitle": "Rivora — Full-Stack Development & VPS Deployment",
+    "ogDescription": "Custom web apps built, deployed to production VPS, and maintained by one trusted full-stack developer."
   },
   "nav": {
     "services": "Services",
     "portfolio": "Portfolio",
     "products": "Products",
+    "faq": "FAQ",
     "contact": "Contact",
-    "cta": "Get in Touch"
+    "cta": "Get in Touch",
+    "skipToContent": "Skip to main content"
   },
   "hero": {
     "tagline": "Build. Deploy. Scale.",
@@ -139,7 +143,39 @@
   "footer": {
     "tagline": "Full-stack development & VPS deployment.",
     "rights": "All rights reserved.",
-    "built": "Built with Next.js"
+    "built": "Built with Next.js",
+    "navLabel": "Site sections"
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Common questions about custom development, VPS deployment, and ready-made products.",
+    "items": {
+      "services": {
+        "question": "What full-stack development services does Rivora offer?",
+        "answer": "Rivora provides end-to-end web development: frontend with React and Next.js, backend APIs with Node.js, database design with PostgreSQL, and production deployment on VPS with Docker, Nginx, and SSL."
+      },
+      "vps": {
+        "question": "Do you deploy projects to a VPS?",
+        "answer": "Yes. Every custom project includes VPS deployment — server setup, Docker containers, reverse proxy, SSL certificates, and basic monitoring. Your application goes live on your own infrastructure, not just delivered as code."
+      },
+      "stack": {
+        "question": "What technologies do you work with?",
+        "answer": "Primary stack: Next.js, React, TypeScript, Node.js, PostgreSQL, Prisma, Docker, and Nginx. I also work with Vue, Laravel, FastAPI, Redis, and Stripe depending on project requirements."
+      },
+      "timeline": {
+        "question": "How long does a custom web project take?",
+        "answer": "Timelines depend on scope. A landing page takes 1–2 weeks, an admin panel 3–4 weeks, and full custom systems 6–12 weeks. I provide a detailed estimate after the initial consultation."
+      },
+      "products": {
+        "question": "Can I buy a ready-made product instead of custom development?",
+        "answer": "Yes. Rivora offers pre-built systems — landing kits, admin panels, and SaaS boilerplates — available as a one-time purchase or monthly subscription with deployment included on your VPS."
+      },
+      "pricing": {
+        "question": "How much does full-stack development cost?",
+        "answer": "Custom projects are quoted based on scope. Ready-made products start from $499 one-time or $29/month. Contact me with your requirements for a free estimate — no commitment required."
+      }
+    }
   },
   "lang": {
     "en": "English",

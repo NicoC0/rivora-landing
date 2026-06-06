@@ -22,10 +22,14 @@ export function Services() {
   const t = useTranslations("services");
 
   return (
-    <section id="services" className="py-20 md:py-28">
+    <section
+      id="services"
+      aria-labelledby="services-heading"
+      className="py-20 md:py-28"
+    >
       <div className="mx-auto max-w-6xl px-6">
         <p className="section-label mb-3">{t("label")}</p>
-        <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
+        <h2 id="services-heading" className="text-3xl font-bold tracking-tight md:text-4xl">
           {t("title")}
         </h2>
 

@@ -6,10 +6,14 @@ export function Products() {
   const t = useTranslations("products");
 
   return (
-    <section id="products" className="border-t border-card-border py-20 md:py-28">
+    <section
+      id="products"
+      aria-labelledby="products-heading"
+      className="border-t border-card-border py-20 md:py-28"
+    >
       <div className="mx-auto max-w-6xl px-6">
         <p className="section-label mb-3">{t("label")}</p>
-        <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
+        <h2 id="products-heading" className="text-3xl font-bold tracking-tight md:text-4xl">
           {t("title")}
         </h2>
         <p className="mt-4 max-w-2xl text-muted">{t("subtitle")}</p>

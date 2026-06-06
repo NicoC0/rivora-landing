@@ -1,15 +1,19 @@
 {
   "metadata": {
-    "title": "Rivora — Desarrollo Full-Stack y Despliegue en VPS",
-    "description": "Rivora desarrolla aplicaciones web a medida, las despliega en VPS de producción y ofrece productos digitales listos para usar. Desarrollo full-stack para empresas.",
-    "keywords": "desarrollo full stack, desarrollo web, despliegue VPS, software a medida, SaaS, Rivora"
+    "title": "Rivora | Desarrollador Full-Stack — Apps Web a Medida y Despliegue VPS",
+    "description": "Contratá a Rivora para desarrollo web full-stack a medida, integraciones API y despliegue en VPS de producción. Productos SaaS con compra única o suscripción mensual. Desarrollador remoto para clientes en todo el mundo.",
+    "keywords": "desarrollador full stack, desarrollo web a medida, despliegue VPS, desarrollador Next.js, freelancer desarrollo web, desarrollo SaaS, aplicaciones web, DevOps, integración API, desarrollador remoto, servicios de desarrollo de software, Rivora",
+    "ogTitle": "Rivora — Desarrollo Full-Stack y Despliegue en VPS",
+    "ogDescription": "Apps web a medida, desplegadas en VPS de producción y mantenidas por un desarrollador full-stack de confianza."
   },
   "nav": {
     "services": "Servicios",
     "portfolio": "Portfolio",
     "products": "Productos",
+    "faq": "FAQ",
     "contact": "Contacto",
-    "cta": "Contactar"
+    "cta": "Contactar",
+    "skipToContent": "Saltar al contenido principal"
   },
   "hero": {
     "tagline": "Construir. Desplegar. Escalar.",
@@ -139,7 +143,39 @@
   "footer": {
     "tagline": "Desarrollo full-stack y despliegue en VPS.",
     "rights": "Todos los derechos reservados.",
-    "built": "Hecho con Next.js"
+    "built": "Hecho con Next.js",
+    "navLabel": "Secciones del sitio"
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Dudas comunes sobre desarrollo a medida, despliegue en VPS y productos listos.",
+    "items": {
+      "services": {
+        "question": "¿Qué servicios de desarrollo full-stack ofrece Rivora?",
+        "answer": "Rivora ofrece desarrollo web integral: frontend con React y Next.js, APIs backend con Node.js, diseño de bases de datos con PostgreSQL, y despliegue en VPS con Docker, Nginx y SSL."
+      },
+      "vps": {
+        "question": "¿Desplegás los proyectos en un VPS?",
+        "answer": "Sí. Cada proyecto incluye despliegue en VPS — configuración del servidor, contenedores Docker, proxy inverso, certificados SSL y monitoreo básico. Tu aplicación queda en vivo en tu propia infraestructura."
+      },
+      "stack": {
+        "question": "¿Con qué tecnologías trabajás?",
+        "answer": "Stack principal: Next.js, React, TypeScript, Node.js, PostgreSQL, Prisma, Docker y Nginx. También trabajo con Vue, Laravel, FastAPI, Redis y Stripe según los requerimientos del proyecto."
+      },
+      "timeline": {
+        "question": "¿Cuánto tarda un proyecto web a medida?",
+        "answer": "Depende del alcance. Una landing page toma 1–2 semanas, un panel admin 3–4 semanas, y sistemas completos 6–12 semanas. Entrego un presupuesto detallado después de la consulta inicial."
+      },
+      "products": {
+        "question": "¿Puedo comprar un producto listo en lugar de desarrollo a medida?",
+        "answer": "Sí. Rivora ofrece sistemas pre-construidos — kits landing, paneles admin y boilerplates SaaS — con compra única o suscripción mensual, incluyendo despliegue en tu VPS."
+      },
+      "pricing": {
+        "question": "¿Cuánto cuesta el desarrollo full-stack?",
+        "answer": "Los proyectos a medida se cotizan según alcance. Los productos listos arrancan desde USD 499 de compra única o USD 29/mes. Contactame con tu requerimiento para un presupuesto sin compromiso."
+      }
+    }
   },
   "lang": {
     "en": "English",

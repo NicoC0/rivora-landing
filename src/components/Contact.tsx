@@ -35,12 +35,16 @@ export function Contact() {
   const projectTypes = ["custom", "deployment", "product", "other"] as const;
 
   return (
-    <section id="contact" className="border-t border-card-border py-20 md:py-28">
+    <section
+      id="contact"
+      aria-labelledby="contact-heading"
+      className="border-t border-card-border py-20 md:py-28"
+    >
       <div className="mx-auto max-w-6xl px-6">
         <div className="grid gap-12 lg:grid-cols-2">
           <div>
             <p className="section-label mb-3">{t("label")}</p>
-            <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
+            <h2 id="contact-heading" className="text-3xl font-bold tracking-tight md:text-4xl">
               {t("title")}
             </h2>
             <p className="mt-4 text-muted">{t("subtitle")}</p>

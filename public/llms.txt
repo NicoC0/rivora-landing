@@ -1,0 +1,24 @@
+# Rivora
+
+> Full-stack web development, VPS deployment, and ready-made digital products.
+
+Rivora is a solo full-stack development studio offering custom web applications, production VPS deployment, and pre-built SaaS products.
+
+## Services
+
+- Full-stack web development (Next.js, React, Node.js, PostgreSQL)
+- VPS deployment (Docker, Nginx, SSL, monitoring)
+- Maintenance and ongoing support
+- Technical consulting and architecture
+- API development and third-party integrations
+- Ready-made products (landing kits, admin panels, SaaS boilerplates)
+
+## Contact
+
+- Website: https://rivora.dev
+- Email: hello@rivora.dev
+
+## Languages
+
+- English: https://rivora.dev/en
+- Spanish: https://rivora.dev/es
