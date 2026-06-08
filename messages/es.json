@@ -16,11 +16,16 @@
     "skipToContent": "Saltar al contenido principal"
   },
   "hero": {
-    "tagline": "Construir. Desplegar. Escalar.",
-    "title": "Productos Digitales Que Generan Impacto Real",
+    "tagline": "Construir, desplegar, escalar.",
+    "title": "Productos digitales que generan impacto real",
     "subtitle": "Desarrollo full-stack, despliegue en producción y soporte continuo — de un solo desarrollador en quien confiar.",
-    "cta": "Iniciar Proyecto",
-    "secondary": "Ver Mi Trabajo"
+    "cta": "Iniciar proyecto",
+    "secondary": "Ver mi trabajo",
+    "pills": "Full-stack · VPS · SaaS",
+    "builtBy": "Un desarrollador, de punta a punta"
+  },
+  "techStrip": {
+    "label": "Tecnologías y herramientas"
   },
   "stats": {
     "title": "Un socio desarrollador enfocado en entregar software de calidad y mantenerlo funcionando en producción.",
@@ -33,10 +38,10 @@
   },
   "services": {
     "label": "Servicios",
-    "title": "Lo Que Hago",
+    "title": "Lo que hago",
     "items": {
       "fullstack": {
-        "title": "Desarrollo Full-Stack",
+        "title": "Desarrollo full-stack",
         "description": "Apps web modernas con React, Next.js, Node.js y PostgreSQL. Arquitectura limpia, código testeado y diseño escalable."
       },
       "deployment": {
@@ -44,11 +49,11 @@
         "description": "Despliego tu proyecto en un VPS — Docker, Nginx, SSL, monitoreo. Tu app en vivo, segura y mantenida."
       },
       "maintenance": {
-        "title": "Mantenimiento y Soporte",
+        "title": "Mantenimiento y soporte",
         "description": "Actualizaciones, corrección de bugs, optimización de rendimiento e iteraciones de funcionalidades."
       },
       "consulting": {
-        "title": "Consultoría Técnica",
+        "title": "Consultoría técnica",
         "description": "Revisiones de arquitectura, decisiones de stack y planificación de roadmap antes de escribir código."
       },
       "api": {
@@ -56,35 +61,35 @@
         "description": "APIs REST y GraphQL, integraciones con terceros, pasarelas de pago y flujos de automatización."
       },
       "products": {
-        "title": "Productos Listos",
+        "title": "Productos listos",
         "description": "Sistemas pre-construidos que podés comprar o suscribirte mensualmente. Desplegados y configurados para vos."
       }
     }
   },
   "portfolio": {
     "label": "Portfolio",
-    "title": "Trabajo con Clientes",
+    "title": "Trabajo con clientes",
     "subtitle": "Sistemas privados bajo NDA. Mostrados aquí para demostrar alcance y calidad — detalles anonimizados.",
-    "viewDetails": "Ver Más",
+    "viewDetails": "Ver más",
     "nda": "Proyecto NDA",
     "items": {
       "erp": {
-        "title": "Plataforma de Gestión Empresarial",
+        "title": "Plataforma de gestión empresarial",
         "description": "Sistema de inventario, facturación e informes para un distribuidor regional. React + Node.js + PostgreSQL.",
         "tags": ["React", "Node.js", "PostgreSQL", "VPS"]
       },
       "booking": {
-        "title": "Sistema de Reservas y Turnos",
+        "title": "Sistema de reservas y turnos",
         "description": "Plataforma de citas multi-sede con sincronización de calendario, notificaciones y panel admin.",
         "tags": ["Next.js", "Prisma", "Stripe", "Docker"]
       },
       "dashboard": {
-        "title": "Dashboard de Analytics",
+        "title": "Dashboard de analytics",
         "description": "Panel de KPIs en tiempo real para una empresa logística. Pipelines de datos, gráficos y acceso por roles.",
         "tags": ["TypeScript", "FastAPI", "Redis", "Nginx"]
       },
       "crm": {
-        "title": "CRM Personalizado",
+        "title": "CRM personalizado",
         "description": "Pipeline de ventas, gestión de clientes y seguimientos automatizados para una firma B2B.",
         "tags": ["Vue", "Laravel", "MySQL", "VPS"]
       }
@@ -92,7 +97,7 @@
   },
   "products": {
     "label": "Productos",
-    "title": "Listos para Lanzar",
+    "title": "Listos para lanzar",
     "subtitle": "Sistemas pre-construidos disponibles por compra única o suscripción mensual. Desplegados en tu VPS.",
     "buyOnce": "Compra única",
     "monthly": "Suscripción mensual",
@@ -102,13 +107,13 @@
     "contact": "Consultar precio",
     "items": {
       "starter": {
-        "title": "Kit Landing Starter",
+        "title": "Kit landing starter",
         "description": "Landing page optimizada para SEO con formulario de contacto, i18n y estructura lista para CMS. Desplegada en tu dominio.",
         "priceOnce": "$499",
         "priceMonthly": "$29"
       },
       "admin": {
-        "title": "Template Panel Admin",
+        "title": "Template panel admin",
         "description": "Dashboard admin completo con auth, CRUD, roles y modo oscuro. Personalizable a tu lógica de negocio.",
         "priceOnce": "$899",
         "priceMonthly": "$49"
@@ -123,7 +128,7 @@
   },
   "contact": {
     "label": "Contacto",
-    "title": "Construyamos Algo Juntos",
+    "title": "Construyamos algo juntos",
     "subtitle": "Contame sobre tu proyecto. Normalmente respondo en menos de 24 horas.",
     "name": "Nombre",
     "email": "Email",
@@ -135,7 +140,7 @@
       "other": "Otro"
     },
     "message": "Mensaje",
-    "submit": "Enviar Mensaje",
+    "submit": "Enviar mensaje",
     "sending": "Enviando...",
     "success": "¡Mensaje enviado! Te responderé pronto.",
     "error": "Algo salió mal. Intentá de nuevo o escribime directamente."
@@ -148,7 +153,7 @@
   },
   "faq": {
     "label": "FAQ",
-    "title": "Preguntas Frecuentes",
+    "title": "Preguntas frecuentes",
     "subtitle": "Dudas comunes sobre desarrollo a medida, despliegue en VPS y productos listos.",
     "items": {
       "services": {

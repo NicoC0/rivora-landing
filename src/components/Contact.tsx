@@ -64,7 +64,7 @@ export function Contact() {
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label htmlFor="name" className="mb-1.5 block text-xs font-medium uppercase tracking-wider text-muted">
+              <label htmlFor="name" className="mb-1.5 block text-sm font-medium text-muted">
                 {t("name")}
               </label>
               <input
@@ -78,7 +78,7 @@ export function Contact() {
             </div>
 
             <div>
-              <label htmlFor="email" className="mb-1.5 block text-xs font-medium uppercase tracking-wider text-muted">
+              <label htmlFor="email" className="mb-1.5 block text-sm font-medium text-muted">
                 {t("email")}
               </label>
               <input
@@ -91,7 +91,7 @@ export function Contact() {
             </div>
 
             <div>
-              <label htmlFor="type" className="mb-1.5 block text-xs font-medium uppercase tracking-wider text-muted">
+              <label htmlFor="type" className="mb-1.5 block text-sm font-medium text-muted">
                 {t("type")}
               </label>
               <select id="type" name="type" required className="input-field">
@@ -104,7 +104,7 @@ export function Contact() {
             </div>
 
             <div>
-              <label htmlFor="message" className="mb-1.5 block text-xs font-medium uppercase tracking-wider text-muted">
+              <label htmlFor="message" className="mb-1.5 block text-sm font-medium text-muted">
                 {t("message")}
               </label>
               <textarea

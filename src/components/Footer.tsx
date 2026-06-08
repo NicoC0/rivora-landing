@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import { RivoraLogo } from "./RivoraLogo";
 import { sectionAnchors } from "@/lib/config";
 
 export function Footer() {
@@ -14,7 +15,7 @@ export function Footer() {
             <a
               key={key}
               href={`#${key}`}
-              className="text-xs font-medium uppercase tracking-widest text-muted transition-colors hover:text-foreground"
+              className="text-sm font-medium text-muted transition-colors hover:text-foreground"
             >
               {tNav(key)}
             </a>
@@ -22,8 +23,8 @@ export function Footer() {
         </nav>
         <div className="flex flex-col items-center justify-between gap-4 text-sm text-muted md:flex-row">
           <div>
-            <span className="font-bold tracking-[0.2em] text-foreground">RIVORA</span>
-            <p className="mt-1">{t("tagline")}</p>
+            <RivoraLogo size="md" />
+            <p className="mt-2">{t("tagline")}</p>
           </div>
           <p>
             © {year} Rivora. {t("rights")}

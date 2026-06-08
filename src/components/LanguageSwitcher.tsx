@@ -27,7 +27,7 @@ export function LanguageSwitcher() {
           type="button"
           onClick={() => switchLocale(loc)}
           disabled={isPending}
-          className={`px-2 py-1 text-xs font-medium uppercase tracking-wider transition-colors ${
+          className={`px-2 py-1 text-sm font-medium transition-colors ${
             locale === loc
               ? "text-accent-blue"
               : "text-muted hover:text-foreground"

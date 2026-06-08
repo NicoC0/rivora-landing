@@ -2,7 +2,7 @@ export function HeroWaves() {
   return (
     <div className="hero-waves pointer-events-none absolute inset-0 overflow-hidden" aria-hidden>
       <svg
-        className="hero-waves__svg absolute left-1/2 top-[38%] h-[55%] w-[140%] max-w-none -translate-x-1/2 md:top-[32%]"
+        className="hero-waves__svg absolute left-0 top-[22%] h-[65%] w-[160%] max-w-none md:left-[-10%] md:top-[18%]"
         viewBox="0 0 1200 400"
         preserveAspectRatio="xMidYMid slice"
         fill="none"

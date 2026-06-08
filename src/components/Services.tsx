@@ -45,7 +45,7 @@ export function Services() {
                   [{String(i + 1).padStart(2, "0")}]
                 </span>
                 <Icon className="mt-4 h-6 w-6 text-accent-blue" aria-hidden />
-                <h3 className="mt-4 text-sm font-bold uppercase tracking-wider">
+                <h3 className="mt-4 text-sm font-semibold text-foreground">
                   {t(`items.${key}.title`)}
                 </h3>
                 <p className="mt-3 text-sm leading-relaxed text-muted">

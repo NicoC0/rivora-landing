@@ -1,5 +1,5 @@
 import type { Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -22,8 +22,15 @@ const geistMono = Geist_Mono({
   display: "swap",
 });
 
+const poppins = Poppins({
+  variable: "--font-poppins",
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
+  display: "swap",
+});
+
 export const viewport: Viewport = {
-  themeColor: "#060a12",
+  themeColor: "#0F1720",
   width: "device-width",
   initialScale: 1,
   colorScheme: "dark",
@@ -51,7 +58,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html
       lang={locale === "es" ? "es" : "en"}
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider messages={messages}>

@@ -27,7 +27,7 @@ export function Stats() {
                   {value}
                 </span>
               </div>
-              <p className="mt-2 text-sm font-semibold uppercase tracking-wider">
+              <p className="mt-2 text-sm font-medium text-foreground">
                 {label}
               </p>
               <p className="mt-1 text-sm text-muted">{desc}</p>

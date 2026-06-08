@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { RivoraLogo } from "./RivoraLogo";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -31,8 +32,8 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#" className="text-lg font-bold tracking-[0.25em] text-foreground">
-          RIVORA
+        <a href="#" aria-label="Rivora — home">
+          <RivoraLogo size="md" />
         </a>
 
         <nav className="hidden items-center gap-8 md:flex" aria-label="Main">
@@ -40,7 +41,7 @@ export function Header() {
             <a
               key={key}
               href={href}
-              className="text-xs font-medium uppercase tracking-widest text-muted transition-colors hover:text-foreground"
+              className="text-sm font-medium text-muted transition-colors hover:text-foreground"
             >
               {t(key)}
             </a>
@@ -72,7 +73,7 @@ export function Header() {
                 key={key}
                 href={href}
                 onClick={() => setOpen(false)}
-                className="text-sm font-medium uppercase tracking-widest text-muted"
+                className="text-sm font-medium text-muted"
               >
                 {t(key)}
               </a>

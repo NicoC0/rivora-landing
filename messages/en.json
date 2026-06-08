@@ -12,15 +12,20 @@
     "products": "Products",
     "faq": "FAQ",
     "contact": "Contact",
-    "cta": "Get in Touch",
+    "cta": "Get in touch",
     "skipToContent": "Skip to main content"
   },
   "hero": {
-    "tagline": "Build. Deploy. Scale.",
-    "title": "Digital Products That Drive Real Impact",
+    "tagline": "Build, deploy, scale.",
+    "title": "Digital products that drive real impact",
     "subtitle": "Full-stack development, production deployment, and ongoing support — from one developer you can trust.",
-    "cta": "Start a Project",
-    "secondary": "View My Work"
+    "cta": "Start a project",
+    "secondary": "View my work",
+    "pills": "Full-stack · VPS · SaaS",
+    "builtBy": "One developer, end to end"
+  },
+  "techStrip": {
+    "label": "Technologies and tools"
   },
   "stats": {
     "title": "A solo developer partner focused on shipping quality software and keeping it running in production.",
@@ -33,53 +38,53 @@
   },
   "services": {
     "label": "Services",
-    "title": "What I Do",
+    "title": "What I do",
     "items": {
       "fullstack": {
-        "title": "Full-Stack Development",
+        "title": "Full-stack development",
         "description": "Modern web apps with React, Next.js, Node.js, and PostgreSQL. Clean architecture, tested code, and scalable design."
       },
       "deployment": {
-        "title": "VPS Deployment",
+        "title": "VPS deployment",
         "description": "I deploy your project to a VPS — Docker, Nginx, SSL, monitoring. Your app live, secure, and maintained."
       },
       "maintenance": {
-        "title": "Maintenance & Support",
+        "title": "Maintenance and support",
         "description": "Updates, bug fixes, performance tuning, and feature iterations. Your product stays healthy after launch."
       },
       "consulting": {
-        "title": "Technical Consulting",
+        "title": "Technical consulting",
         "description": "Architecture reviews, stack decisions, and roadmap planning before you write a single line of code."
       },
       "api": {
-        "title": "API & Integrations",
+        "title": "APIs and integrations",
         "description": "REST and GraphQL APIs, third-party integrations, payment gateways, and automation workflows."
       },
       "products": {
-        "title": "Ready-Made Products",
+        "title": "Ready-made products",
         "description": "Pre-built systems you can purchase outright or subscribe to monthly. Deployed and configured for you."
       }
     }
   },
   "portfolio": {
     "label": "Portfolio",
-    "title": "Client Work",
+    "title": "Client work",
     "subtitle": "Private systems built under NDA. Showcased here to demonstrate scope and quality — details anonymized.",
-    "viewDetails": "Learn More",
-    "nda": "NDA Project",
+    "viewDetails": "Learn more",
+    "nda": "NDA project",
     "items": {
       "erp": {
-        "title": "Enterprise Resource Platform",
+        "title": "Enterprise resource platform",
         "description": "Inventory, billing, and reporting system for a regional distributor. React + Node.js + PostgreSQL.",
         "tags": ["React", "Node.js", "PostgreSQL", "VPS"]
       },
       "booking": {
-        "title": "Booking & Scheduling System",
+        "title": "Booking and scheduling system",
         "description": "Multi-location appointment platform with calendar sync, notifications, and admin dashboard.",
         "tags": ["Next.js", "Prisma", "Stripe", "Docker"]
       },
       "dashboard": {
-        "title": "Analytics Dashboard",
+        "title": "Analytics dashboard",
         "description": "Real-time KPI dashboard for a logistics company. Data pipelines, charts, and role-based access.",
         "tags": ["TypeScript", "FastAPI", "Redis", "Nginx"]
       },
@@ -92,29 +97,29 @@
   },
   "products": {
     "label": "Products",
-    "title": "Ready to Launch",
+    "title": "Ready to launch",
     "subtitle": "Pre-built systems available for one-time purchase or monthly subscription. Deployed on your VPS.",
     "buyOnce": "One-time purchase",
     "monthly": "Monthly subscription",
     "from": "From",
     "perMonth": "/mo",
-    "cta": "Get Started",
+    "cta": "Get started",
     "contact": "Contact for pricing",
     "items": {
       "starter": {
-        "title": "Starter Landing Kit",
+        "title": "Starter landing kit",
         "description": "SEO-optimized landing page with contact form, i18n, and CMS-ready structure. Deployed on your domain.",
         "priceOnce": "$499",
         "priceMonthly": "$29"
       },
       "admin": {
-        "title": "Admin Panel Template",
+        "title": "Admin panel template",
         "description": "Full admin dashboard with auth, CRUD, roles, and dark mode. Customizable to your business logic.",
         "priceOnce": "$899",
         "priceMonthly": "$49"
       },
       "saas": {
-        "title": "SaaS Boilerplate",
+        "title": "SaaS boilerplate",
         "description": "Multi-tenant SaaS starter with auth, billing, subscriptions, and API. Production-ready architecture.",
         "priceOnce": "$1,499",
         "priceMonthly": "$79"
@@ -123,7 +128,7 @@
   },
   "contact": {
     "label": "Contact",
-    "title": "Let's Build Something",
+    "title": "Let's build something",
     "subtitle": "Tell me about your project. I typically respond within 24 hours.",
     "name": "Name",
     "email": "Email",
@@ -135,7 +140,7 @@
       "other": "Other"
     },
     "message": "Message",
-    "submit": "Send Message",
+    "submit": "Send message",
     "sending": "Sending...",
     "success": "Message sent! I'll get back to you soon.",
     "error": "Something went wrong. Please try again or email directly."
@@ -148,7 +153,7 @@
   },
   "faq": {
     "label": "FAQ",
-    "title": "Frequently Asked Questions",
+    "title": "Frequently asked questions",
     "subtitle": "Common questions about custom development, VPS deployment, and ready-made products.",
     "items": {
       "services": {
